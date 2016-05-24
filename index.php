@@ -12,7 +12,6 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
     
     <link rel="stylesheet" href="css/master.css">
-    <script src="js/scripts.js"></script>
 </head>
 <body>
    
@@ -107,15 +106,16 @@
             
         </div>
         
-        <a href="" class="mais-btn">Ver mais Notícias e Destaques</a>
         
-        <!--<div id="ver-mais-noticias-btn">
-            
-        </div>-->
+        
+        <div id="ver-mais-noticias-btn">
+            <a href="">Ver mais Notícias e Destaques</a>
+        </div>
             
     </div>
     
     <footer></footer>
-    
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>

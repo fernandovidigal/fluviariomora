@@ -26,8 +26,8 @@
     color: #ffffff;
     font-size: 1.5em;
     font-weight: 300px;
-    height: 28px;
-    padding: 6px 0px 6px 26px;
+    height: 29px;
+    padding: 5px 0px 6px 26px;
     float: left;
 }
 
@@ -140,15 +140,17 @@ header .drop-menu li > a:hover {
 
 #slider-images img {
     position: absolute;
-    top: 0px;
+    top: -50%;
     left: 0px;
+    width: 100%;
+    transform: translateY(265px);
+    
 }
 
 #slider-wrapper ul {
     position: absolute;
     left: 0px;
     bottom: 0px;
-    right:  0px;
     width: 100%;
 }
 
@@ -227,7 +229,6 @@ header .drop-menu li > a:hover {
 
 #noticias-destaques-wrapper {
     width: 100%;
-    margin-top: 30px;
 }
 
 #noticias-detaques-items {
@@ -236,20 +237,22 @@ header .drop-menu li > a:hover {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
+    flex-wrap: wrap;
 }
 
 #noticias-detaques-items .noticia {
-    width: 32%;
+    width: 400px;
     background-color: #ffffff;
     border: solid 1px #bbbbbb;
     text-align: center;
     position: relative;
+    margin-top: 30px;
 }
 
 #noticias-detaques-items .noticia img {
     display: block;
-    height: 160px;
     width: 100%;
+    height: 220px;;
     margin: 0 auto;
 }
 
@@ -283,52 +286,35 @@ header .drop-menu li > a:hover {
     margin-bottom: 15px;
 }
 
+#noticias-detaques-items .noticia a:hover {
+    background-color: #96c539;
+}
+
 /* Botão Ver mais notícias e destaques */
 
-/*#ver-mais-noticias-btn {
-    width: 32%;
+#ver-mais-noticias-btn {
     margin: 0 auto;
     margin-top: 20px;
+    text-align: center;
 }
 
 #ver-mais-noticias-btn a {
-    margin: 0 auto;
     text-decoration: none;
     color: #ffffff;
     background-color: #266ca8;
-    margin-top: 20px;
-}*/
-
-.mais-btn {
-    text-align: center;
-    margin-top: 20px;
-    color: #ffffff;
-    background-color: #266ca8;
-    text-decoration: none; 
+    margin-top: 24px;
+    padding: 6px 28px;
 }
 
+#ver-mais-noticias-btn a:hover {
+    background-color: #96c539;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Footer */
 
 footer {
     width: 100%;
-    height: 300px;
+    height: 160px;
+    background-color: #266ca8;
+    margin-top: 80px;
 }
