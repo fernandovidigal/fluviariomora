@@ -17,7 +17,7 @@
    
    <header>
         <div class="logotipo">
-           <img src="imagens/logotipo.gif" alt="Logotipo do Fluviário">
+           <a href="index.php"><img src="imagens/logotipo.gif" alt="Logotipo do Fluviário"></a>
         </div>
        
         <nav>
@@ -51,7 +51,7 @@
    
    <div id="slider-wrapper">
         <div id="slider-images">
-            <img src="imagens/habitats_exoticos.jpg" alt="Habitats Exóticos">
+            <img src="imagens/habitats_exoticos.jpg" alt="Habitats Exóticos" class="active-slider-img">
             <img src="imagens/lontrario.jpg" alt="Lontrário">
             <img src="imagens/percurso_rio.jpg" alt="Percurso de um Rio">
             <img src="imagens/sala_saramugo.jpg" alt="Sala Saramugo">
@@ -64,7 +64,7 @@
             <li><a href="#" class="chegar-ticket">Como Chegar</a></li>
         </ul>
         
-        <div class="image-bullets">
+        <div id="image-bullets">
             <button class="active"></button>
             <button></button>
             <button></button>
@@ -106,15 +106,30 @@
             
         </div>
         
-        
-        
         <div id="ver-mais-noticias-btn">
             <a href="">Ver mais Notícias e Destaques</a>
         </div>
             
     </div>
     
-    <footer></footer>
+    <footer>
+        <div id="social-icons">
+            <a href=""><img src="imagens/facebook-logo.png" alt="Facebook"></a>
+            <a href=""><img src="imagens/instagram-logo.png" alt="Instagram"></a>
+            <a href=""><img src="imagens/twitter-logo.png" alt="Twitter"></a>
+            <a href=""><img src="imagens/email-logo.png" alt="Email"></a>
+        </div>
+        
+        <div id="newsletter">
+            <form action="">
+                <label for="newsletter">Subscreva a nossa Newsletter</label>
+                <input type="text" name="newsletter">
+                <input type="submit" name="submit" value="Subscrever">
+            </form>
+        </div>
+    </footer>
+    
+    
     <script src="js/jquery-2.2.4.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
