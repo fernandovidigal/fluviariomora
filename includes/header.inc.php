@@ -35,7 +35,7 @@
             <li>Exposição
                <ul class="drop-menu">
                     <li><a href="#">Mapa da Exposição</a></li>
-                    <li><a href="#">Percurso de um Rio</a></li>
+                    <li><a href="percursoRio.php">Percurso de um Rio</a></li>
                     <li><a href="#">Monstros do Rio</a></li>
                     <li><a href="#">Lontrário</a></li>
                     <li><a href="#">Sala Saramugo</a></li>
