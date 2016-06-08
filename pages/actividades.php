@@ -1,6 +1,4 @@
 <?php 
-    include_once("includes/header.inc.php"); 
-
     $imagem = 100;
     include_once("includes/imagem_illustrativa.inc.php");
 ?>

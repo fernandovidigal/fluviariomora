@@ -1,3 +1,8 @@
+<?php
+    if(isset($path))
+        echo "Está definido";
+
+?>    
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -12,13 +17,13 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
     
     <!-- ESTILOS -->
-    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="<?php echo path; ?>/css/master.css">
 </head>
 <body>
    
 <header>
     <div class="logotipo">
-       <a href="index.php"><img src="imagens/logotipo.gif" alt="Logotipo do Fluviário"></a>
+       <a href="home.php"><img src="<?php echo img_path; ?>/logotipo.gif" alt="Logotipo do Fluviário"></a>
     </div>
 
     <nav>
@@ -34,8 +39,8 @@
             </li>
             <li>Exposição
                <ul class="drop-menu">
-                    <li><a href="#">Mapa da Exposição</a></li>
-                    <li><a href="percursoRio.php">Percurso de um Rio</a></li>
+                    <li><a href="<?php echo pages_path; ?>/exposicao.php">Mapa da Exposição</a></li>
+                    <li><a href="<?php echo pages_path; ?>/percurso_rio.php">Percurso de um Rio</a></li>
                     <li><a href="#">Monstros do Rio</a></li>
                     <li><a href="#">Lontrário</a></li>
                     <li><a href="#">Sala Saramugo</a></li>

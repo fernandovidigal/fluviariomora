@@ -1,8 +1,9 @@
 <?php 
-    include_once("includes/header.inc.php");
+    echo $_SERVER["REQUEST_URI"];
+    include_once("../includes/header.inc.php");
 
     $imagem = 21;
-    include_once("includes/imagem_illustrativa.inc.php");
+    include_once("../includes/imagem_illustrativa.inc.php");
 ?>
 
 <div id="intro-text">
@@ -13,7 +14,7 @@
     <div class="color-header"><p>Nesta Exposição</p></div>
     
     <div class="especie">
-        <img src="imagens/exposicao/bordalo.jpg" alt="Bordalo">
+        <img src="<?php echo $path; ?>/imagens/exposicao/bordalo.jpg" alt="Bordalo">
         <div class="especie-desc">
             <h1>Bordalo</h1>
             <p><small>Iberocypris alburnoides (Steindachner, 1866)</small></p>
@@ -24,7 +25,7 @@
     </div>
     
     <div class="especie">
-        <img src="imagens/exposicao/cumba.jpg" alt="Cumba">
+        <img src="/imagens/exposicao/cumba.jpg" alt="Cumba">
         <div class="especie-desc">
             <h1>Cumba</h1>
             <p><small>Luciobarbus Comizo (Steindachner, 1864)</small></p>

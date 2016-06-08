@@ -6,12 +6,12 @@
         switch($imagem)
         {
             case 100:
-                echo '<img src="imagens/actividades.jpg" alt="Actividades">';
+                echo '<img src="'.img_path.'/actividades.jpg" alt="Actividades">';
                 echo '<figcaption>Actividades</figcaption>';
                 break;
                 
             case 21:
-                echo '<img src="imagens/exposicao/percurso_rio.jpg" alt="Percurso de um Rio">';
+                echo '<img src="'.img_path.'/exposicao/percurso_rio.jpg" alt="Percurso de um Rio">';
                 echo '<figcaption>Percurso de um Rio</figcaption>';
                 break;
         }
