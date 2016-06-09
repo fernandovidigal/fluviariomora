@@ -12,18 +12,17 @@
     if($local)
     {
         define("path", "/fluviariomora");
-        define("home_path", "/fluviariomora/index.php");
-        define("pages_path", "/fluviariomora/pages");
         define("img_path", "/fluviariomora/imagens");
         define("scripts_path", "/fluviariomora/scripts");
     } else {
         define("path", "http://www.fluviariomora.pt");
-        define("home_path", "http://www.fluviariomora.pt/index.php");
-        define("pages_path", "http://www.fluviariomora.pt/pages");
         define("img_path", "http://www.fluviariomora.pt/imagens");
         define("scripts_path", "http://www.fluviariomora.pt/scripts");
     }
 
+    // Outras constantes
+    define("pages_path", "pages");
+    define("includes_path", "includes");
 
     // FUNCTIONS
     include("scripts/functions.php");

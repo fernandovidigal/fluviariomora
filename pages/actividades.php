@@ -1,11 +1,11 @@
 <?php 
     $imagem = 100;
-    include_once("includes/imagem_illustrativa.inc.php");
+    include_once includes_path . "/imagem_illustrativa.inc.php";
 ?>
 
 <div id="container">
     
-    <?php include_once("includes/menu_lateral_actividades.inc.php"); ?>
+    <?php include_once includes_path . "/menu_lateral_actividades.inc.php"; ?>
                 
     <div id="content">
         <div class="color-header"><p>Programa Científico e Pedagógico</p></div>
@@ -38,5 +38,5 @@
     
 </div>
 
-<?php include_once("includes/footer.inc.php"); ?>
+<?php include_once includes_path . "/footer.inc.php"; ?>
 

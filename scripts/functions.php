@@ -11,38 +11,31 @@ function getPage($uri)
     
     // SEPARATE THE URI BY /
     $uri_parts = explode("/", $uri_path);
+    $page = $uri_parts[count($uri_parts) - 1];
     
-    return $uri_parts[count($uri_parts) - 1];
+    if(!empty($page))
+    {
+        return $page;
+    } else {
+        return "home.php";
+    }
 }
 
 function showPage($page)
 {
-    
-    if(file_exists("pages/" . $page))
+    if(file_exists(pages_path . "/" . $page))
     {
-        switch($page)
-        {
-            case "home.php" : 
-                include_once "pages/home.php";
-                break;
-                
-            case "exposicao.php" : 
-                include_once "pages/exposicao.php";
-                break;
-                
-            case "actividades.php" : 
-                include_once "pages/actividades.php";
-                break;
-                
-            default: 
-                include_once "pages/home.php";
-                break;
-                
-        }
+        include pages_path . "/" . $page;
     } else {
-        echo "falso";
-        //header("Location: ../404.php");
+        header("Location: 404.php");
     }
+    
+    /*if(file_exists("pages/" . $page))
+    {
+        include "pages/" . $page;
+    } else {
+        header("Location: ../404.php");
+    }*/
 }
 
 ?>

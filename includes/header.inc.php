@@ -1,8 +1,3 @@
-<?php
-    if(isset($path))
-        echo "Está definido";
-
-?>    
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -27,7 +22,7 @@
     </div>
 
     <nav>
-        <ul>
+        <ul id="top-menu">
             <li>Fluviário
                 <ul class="drop-menu">
                     <li><a href="#">Missão</a></li>
@@ -40,7 +35,7 @@
             <li>Exposição
                <ul class="drop-menu">
                     <li><a href="<?php echo pages_path; ?>/exposicao.php">Mapa da Exposição</a></li>
-                    <li><a href="<?php echo pages_path; ?>/percurso_rio.php">Percurso de um Rio</a></li>
+                    <li><a href="<?php echo pages_path; ?>/percursoRio.php">Percurso de um Rio</a></li>
                     <li><a href="#">Monstros do Rio</a></li>
                     <li><a href="#">Lontrário</a></li>
                     <li><a href="#">Sala Saramugo</a></li>

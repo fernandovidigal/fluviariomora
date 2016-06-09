@@ -1,6 +1,6 @@
 <?php
     require_once "includes/config.inc.php";
-    include_once "includes/header.inc.php";
+    include_once includes_path . "/header.inc.php";
 ?>
 
 <?php
@@ -11,5 +11,5 @@
 ?>
 
 <?php
-    include_once "includes/footer.inc.php";
+    include_once includes_path . "/footer.inc.php";
 ?>

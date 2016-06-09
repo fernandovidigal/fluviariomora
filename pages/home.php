@@ -7,10 +7,10 @@
     </div>
 
     <ul>
-        <li><a href="#" class="icon-ticket">Bilheteira</a></li>
-        <li><a href="#" class="horario-ticket">Horário</a></li>
-        <li><a href="<?php echo pages_path; ?>/actividades.php" class="actividades-ticket">Actividades</a></li>
-        <li><a href="#" class="chegar-ticket">Como Chegar</a></li>
+        <li><a href="#" class="ticket-icon">Bilheteira</a></li>
+        <li><a href="#" class="horario-icon">Horário</a></li>
+        <li><a href="<?php echo pages_path; ?>/actividades.php" class="actividades-icon">Actividades</a></li>
+        <li><a href="#" class="chegar-icon">Como Chegar</a></li>
     </ul>
 
     <div id="image-bullets">
@@ -25,10 +25,10 @@
     <p>O <strong>Fluviário de Mora</strong> é um aquário público dedicado aos ecossistemas de água doce, privilegiando o conhecimento da sua diversidade, importância e relação com a humanidade. Foi inaugurado a 21 de Março de 2007 e ao longo da visita ficará a conhecer algumas das espécies dulciaquícolas de Portugal da nascente até à foz, outras que ocorrem na Península Ibérica, e também da bacia hidrográfica do rio Amazonas e dos grandes lagos africanos do vale do Rift. Com a água doce como tema transversal a diversas áreas de conhecimento e culturas, a visita a este aquário é um local de sensibilização para cuidarmos desses ecossistemas que albergam uma enorme diversidade, apesar da água doce disponível em estado líquido à superfície constituir somente 0,01% de toda a água do planeta Terra.</p>
 </div>
     
-<div id="noticias-destaques-wrapper">
+<div id="noticias-wrapper">
     <div class="color-header"><p>Notícias e Destaques</p></div>
 
-    <div id="noticias-detaques-items">
+    <div id="noticias-items">
 
         <div class="noticia">
             <img src="<?php echo img_path; ?>/noticias/VisitasGuiadasGratuitas.jpg" alt="">
