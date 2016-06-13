@@ -1,9 +1,13 @@
 <footer>
     <div id="social-icons">
-        <a href=""><img src="<?php echo img_path; ?>/facebook-logo.png" alt="Facebook"></a>
-        <a href=""><img src="<?php echo img_path; ?>/instagram-logo.png" alt="Instagram"></a>
-        <a href=""><img src="<?php echo img_path; ?>/twitter-logo.png" alt="Twitter"></a>
-        <a href=""><img src="<?php echo img_path; ?>/email-logo.png" alt="Email"></a>
+        <a href=""><div id="social-facebook"></div></a>
+        <a href=""><div id="social-instagram"></div></a>
+        <a href=""><div id="social-twitter"></div></a>
+        <a href=""><div id="social-email"></div></a>
+        <!--<a href=""><img src="/imagens/facebook-logo.png" alt="Facebook"></a>
+        <a href=""><img src="/imagens/instagram-logo.png" alt="Instagram"></a>
+        <a href=""><img src="/imagens/twitter-logo.png" alt="Twitter"></a>
+        <a href=""><img src="/imagens/email-logo.png" alt="Email"></a>-->
     </div>
 
     <div id="newsletter">
@@ -16,7 +20,7 @@
 </footer>
 
 
-<script src="<?php echo scripts_path; ?>/jquery-2.2.4.min.js"></script>
-<script src="<?php echo scripts_path; ?>/scripts.js"></script>
+<script src="/scripts/jquery-2.2.4.min.js"></script>
+<script src="/scripts/scripts.js"></script>
 </body>
 </html>

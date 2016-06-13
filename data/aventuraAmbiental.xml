@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aventuraAmbiental>
+    <actividade>
+        <nome>Aquarista por uma hora</nome>
+        <imgURL>../imagens/actividades/eduAquaristaHora.jpg</imgURL>
+        <descricao>Cuidar dos animais e plantas do Fluviário é uma tarefa para muitos envolta num mistério. Mas os nossos aquaristas e biólogos têm todo o gosto em partilhar alguns dos muitos segredos que acompanham o modo de vida dos rios e dos seus habitantes. Saber como se alimentam os peixes e acompanhar a alimentação. Conhecer os bastidores do Fluviário de Mora e aprender um pouco sobre a manutenção deste Aquário.</descricao>
+        <horario>10h00 - 16h00</horario>
+        <duracao>1 hora</duracao>
+        <min></min>
+        <max>10</max>
+        <preco>Bilhete + 8.00€/Participante</preco>
+        <obs>A actividade decorre todo o ano para participantes a partir dos 6 anos.</obs>
+    </actividade>
+    <actividade>
+        <nome>Parque Aventura</nome>
+        <imgURL>../imagens/actividades/parque_aventura.jpg</imgURL>
+        <descricao>Uma aventura radical na copa das árvores aguarda os mais destemidos.</descricao>
+        <horario>10h00 - 16h00</horario>
+        <duracao>cerca de 45 minutos</duracao>
+        <min></min>
+        <max></max>
+        <preco>1.50€/Participante c/apresentação do bilhete de visita ao Fluviário; 2.50€/Participante sem bilhete de visista ao Fluviário.</preco>
+        <obs>Sujeito às condições climatéricas. Parque Aventura para participantes a partir dos 6 anos e de 1,20m de altura.</obs>
+    </actividade>
+    <actividade>
+        <nome>Visita aos Bastidores</nome>
+        <imgURL>../imagens/actividades/eduFluviarioTecnico.jpg</imgURL>
+        <descricao>Abrimos as portas mais secretas do Fluviário de Mora, as que vão dar ao coração e cérebro deste Aquário. Os bastidores do Fluviário de Mora, são uma oportunidade para conhecer e aprender um pouco mais sobre os sistemas necessários à manutenção deste Aquário.</descricao>
+        <horario>10h00 - 16h00</horario>
+        <duracao>1 hora</duracao>
+        <min></min>
+        <max>10</max>
+        <preco>Bilhete + 8.00€/Participante</preco>
+        <obs>A actividade decorre todo o ano.</obs>
+    </actividade>
+    <actividade>
+        <nome>À Pesca na Ribeira</nome>
+        <imgURL>../imagens/actividades/eduPescaRibeira.jpg</imgURL>
+        <descricao>Aprenderá de uma forma quase intuitiva a usar uma cana de pesca e a conhecer alguns dos materiais utilizados nesta arte. Como se trata de uma iniciação à pesca desportiva, terminará com a libertação dos exemplares capturados.</descricao>
+        <horario>10h30 - 15h30</horario>
+        <duracao>1 hora e 30 minutos</duracao>
+        <min></min>
+        <max>5</max>
+        <preco>Bilhete + 10.00€/Participante</preco>
+        <obs>A actividade decorre todo o ano.</obs>
+    </actividade>
+    <actividade>
+        <nome>Dormir no Fluviário</nome>
+        <imgURL>../imagens/actividades/dormir_fluviario.jpg</imgURL>
+        <descricao>Como será dormir no Fluviário? Os peixes dormem? As lontras chiam? As rãs coaxam? Vamos descobrir e quando chegar a hora iremos dormir. Inclui visita aos bastidores e exposições, animações, snack nocturno e pequeno-almoço.</descricao>
+        <horario>20h00 - 10h00</horario>
+        <duracao>14 horas</duracao>
+        <min></min>
+        <max>25</max>
+        <preco>50.00€/Participante</preco>
+        <obs>A actividade decorre durante o Verão e fins-de-semana para participantes a partir dos 6 anos.</obs>
+    </actividade>
+    <actividade>
+        <nome>Parabéns! Parabéns!</nome>
+        <imgURL>../imagens/actividades/eduParabens.jpg</imgURL>
+        <descricao>Venha cantar os parabéns e traga os seus amigos! Uma Festa de Aniversário muito especial aguarda por si neste aquário de água doce.</descricao>
+        <horario>10h00 - 17h00</horario>
+        <duracao>3 horas</duracao>
+        <min></min>
+        <max>25</max>
+        <preco>25.00€/Participante</preco>
+        <obs>A actividade decorre todo o ano. Inclui visita guiada, animação e lanche.</obs>
+    </actividade>
+    <actividade>
+        <nome>Passeios à Beira Rio</nome>
+        <imgURL>../imagens/actividades/eduPasseiosBeiraRio.jpg</imgURL>
+        <descricao>Um passeio pedestre em plena natureza do Parque Ecológico do Gameiro e ao longo da ribeira da Raia é um dos complementos ideias da sua visita ao Fluviário. Ficará a conhecer o Fluviário por dentro e por fora.</descricao>
+        <horario>10h00 - 16h00</horario>
+        <duracao>1 hora</duracao>
+        <min></min>
+        <max>10</max>
+        <preco>Bilhete + 8.00€/Participante</preco>
+        <obs>A actividade decorre todo o ano.</obs>
+    </actividade>
+</aventuraAmbiental>

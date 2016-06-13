@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ferias>
+    <actividade>
+       <nome>Perfis do Fluviário</nome>
+       <imgURL></imgURL>
+       <descricao>Conhece as formas, imagina as cores, ousa experimentar a criatividade com um desenho como motivo de fundo.</descricao>
+    </actividade>
+    <actividade>
+       <nome>O Rio nas tuas Mãos</nome>
+       <imgURL></imgURL>
+       <descricao>Plasticinas de cores apelativas que se transformam à vontade dos dedos que a moldam.</descricao>
+    </actividade>
+    <actividade>
+       <nome>Colado ao Coração</nome>
+       <imgURL></imgURL>
+       <descricao>Plasticinas de cores apelativas que se transformam à vontade dos dedos que a moldam.</descricao>
+    </actividade>
+    <actividade>
+       <nome>Na Companhia de uma Tartaruga</nome>
+       <imgURL></imgURL>
+       <descricao>Livros e revistas sobre muitos temas para consulta na Sala de Aula.</descricao>
+    </actividade>
+    <actividade>
+       <nome>Quebra-cabeças</nome>
+       <imgURL></imgURL>
+       <descricao>Alguns dos jogos desta mesa contemplam muito mais do que quebra-cabeças e puzzles: adivinhas e imagens também aqui têm lugar.</descricao>
+    </actividade>
+    <actividade>
+       <nome>Olha o que eu Descobri!</nome>
+       <imgURL></imgURL>
+       <descricao>Espreitar através de um microscópio ou de uma lupa e perceber que alguns materiais que pertencem ao Mundo dos Rios se transformam quando observados com olhos de águia.</descricao>
+    </actividade>
+    <actividade>
+       <nome>Assim Nascem e Crescem os Peixes</nome>
+       <imgURL></imgURL>
+       <descricao>Através da observação de cinco frascos podemos acompanhar a evolução do desenvolvimento da truta: ovos, alevins e juvenis.</descricao>
+    </actividade>
+</ferias>

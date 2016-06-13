@@ -1,16 +1,21 @@
-<?php 
-    $imagem = 100;
-    include_once includes_path . "/imagem_illustrativa.inc.php";
-?>
+<?php include "../includes/header.inc.php"; ?>
+
+<div id="imagem-illustrativa">
+    <div class="img-overlay"></div>
+    <figure>
+        <img src="/imagens/actividades.jpg" alt="Percurso de um Rio">
+        <figcaption>Actividades</figcaption>
+    </figure>
+</div>
 
 <div id="container">
     
-    <?php include_once includes_path . "/menu_lateral_actividades.inc.php"; ?>
+    <?php include_once "../includes/menu_lateral_actividades.inc.php"; ?>
                 
     <div id="content">
-        <div class="color-header"><p>Programa Científico e Pedagógico</p></div>
+        <div class="header-bar"><p>Programa Científico e Pedagógico</p></div>
         
-        <div class="text-content">
+        <div class="content-text">
             <p>O Programa Científico e Pedagógico do Fluviário serviu de base para a elaboração do Projecto Educativo do Fluviário Falas do Rio, partindo das seguintes premissas:</p>
             <ul>
                 <li>O Aquário pode ser um grande Mestre, na relação entre as diferentes formas de vida;</li>
@@ -25,8 +30,8 @@
             </p>
         </div>
         
-        <div class="color-header"><p>Público-Alvo</p></div>
-        <div class="text-content">
+        <div class="header-bar"><p>Público-Alvo</p></div>
+        <div class="content-text">
             <p>Todos os visitantes do Fluviário de Mora, entre os quais:</p>
             <ul>
                 <li>Instituições de Ensino</li>
@@ -38,5 +43,5 @@
     
 </div>
 
-<?php include_once includes_path . "/footer.inc.php"; ?>
+<?php include "../includes/footer.inc.php"; ?>
 

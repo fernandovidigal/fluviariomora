@@ -4,7 +4,17 @@
     box-sizing: border-box;
 }
 
-.color-header {
+body {
+    background-color: #eeeeee;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    color: #333333;
+}
+
+/*.color-header {
     background-color: #266ca8;
     height: 40px;
     width: 100%;
@@ -26,16 +36,60 @@
     height: 29px;
     padding: 5px 0px 6px 22px;
     float: left;
+}*/
+
+/*.color-header {
+    background-color: #96c539;
+    width: 100%;
 }
 
-body {
-    background-color: #eeeeee;
+.color-header p{
+    color: #ffffff;
+    background-color: #266ca8;
+    display: block;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-left: 30px;
+    line-height: 1.7em;
+    padding-left: 20px;
+    
+}*/
+
+.header-bar {
+    background-color: #96c539;
     width: 100%;
-    max-width: 1080px;
-    margin: 0 auto;
-    font-family: 'Lato', sans-serif;
-    font-size: 100%;
-    color: #333333;
+    margin-bottom: 20px;
+}
+
+.header-bar p{
+    color: #ffffff;
+    background-color: #266ca8;
+    display: block;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-left: 30px;
+    line-height: 1.7em;
+    padding-left: 20px;
+    
+}
+
+.content-text {
+    margin-bottom: 20px;
+}
+
+.content-text p, .content-text ul li {
+    line-height: 1.5em;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.content-text p, .content-text ul {
+    margin-bottom: 12px;
+}
+
+.content-text ul li {
+    list-style-position: inside;
+    margin-left: 20px;
 }
 
 a {
@@ -248,12 +302,12 @@ header .drop-menu li a:hover {
 
 /* Noticias e Destaques */
 
-#noticias-wrapper {
+#destaques-wrapper {
     width: 100%;
     margin-top: 36px;
 }
 
-#noticias-items {
+#destaques-items {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -261,7 +315,7 @@ header .drop-menu li a:hover {
     flex-wrap: wrap;
 }
 
-#noticias-items .noticia {
+#destaques-items .destaques {
     width: 330px;
     height: auto;
     background-color: #ffffff;
@@ -271,20 +325,20 @@ header .drop-menu li a:hover {
     margin-top: 18px;
 }
 
-#noticias-items .noticia img {
+#destaques-items .destaques img {
     display: block;
     width: 100%;
     height: 180px;
     margin: 0 auto;
 }
 
-#noticias-items .noticia hr, .actividade hr {
+#destaques-items .destaques hr, .actividade hr {
     height: 4px;
     background-color: #759fc4;
     border: none;
 }
 
-#noticias-items .noticia p {
+#destaques-items .destaques p {
     font-size: 1.25em;
     color: #96c539;
     font-weight: 700;
@@ -293,7 +347,7 @@ header .drop-menu li a:hover {
     margin-bottom: 80px;
 }
 
-#noticias-items .noticia a {
+#destaques-items .destaques a {
     position: absolute;
     bottom: 0;
     text-decoration: none;
@@ -308,7 +362,7 @@ header .drop-menu li a:hover {
     margin-bottom: 15px;
 }
 
-#noticias-items .noticia a:hover {
+#destaques-items .destaques a:hover {
     background-color: #96c539;
 }
 
@@ -347,10 +401,59 @@ footer {
     float: left;
     margin-top: 20px;
     margin-left: 22px;
+    display: flex;
 }
 
-#social-icons img{
-    margin-right: 6px;
+#social-facebook {
+    width: 32px;
+    height: 32px;
+    background: url("../imagens/facebook-logo.png") no-repeat 0px 0px;
+}
+
+#social-instagram {
+    width: 32px;
+    height: 32px;
+    background: url("../imagens/instagram-logo.png") no-repeat 0px 0px;
+}
+
+#social-twitter {
+    width: 32px;
+    height: 32px;
+    background: url("../imagens/twitter-logo.png") no-repeat 0px 0px;
+}
+
+#social-email {
+    width: 32px;
+    height: 32px;
+    background: url("../imagens/email-logo.png") no-repeat 0px 0px;
+}
+
+#social-facebook:hover {
+    width: 32px;
+    height: 32px;
+    background: url("../imagens/facebook-logo.png") no-repeat -32px 0px;
+}
+
+#social-instagram:hover {
+    width: 32px;
+    height: 32px;
+    background: url("../imagens/instagram-logo.png") no-repeat -32px 0px;
+}
+
+#social-twitter:hover {
+    width: 32px;
+    height: 32px;
+    background: url("../imagens/twitter-logo.png") no-repeat -32px 0px;
+}
+
+#social-email:hover {
+    width: 32px;
+    height: 32px;
+    background: url("../imagens/email-logo.png") no-repeat -32px 0px;
+}
+
+#social-icons a{
+    margin-right: 8px;
 }
 
 /* NEWSLETTER */
@@ -467,22 +570,9 @@ background: linear-gradient(to bottom, rgba(125,185,232,0) 0%,rgba(50,74,93,0) 6
     width: 770px;
 }
 
-#container #content .text-content p, #container #content .text-content ul li{
-    line-height: 1.6em;
-    font-weight: 300;
-    text-align: justify;
-    font-weight: 400;
-}
-
 #container #content .text-content {
     margin-top: 18px;
     margin-bottom: 40px;
-}
-
-
-#container #content ul li {
-    list-style-position: inside;
-    margin-left: 20px;
 }
 
 /* ============ LISTA DE ACTIVIDADES ============= */

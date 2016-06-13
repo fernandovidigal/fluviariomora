@@ -1,7 +1,12 @@
-<?php 
-    $imagem = 21;
-    include_once includes_path . "/imagem_illustrativa.inc.php";
-?>
+<?php include "../includes/header.inc.php"; ?>
+
+<div id="imagem-illustrativa">
+    <div class="img-overlay"></div>
+    <figure>
+        <img src="/imagens/exposicao.jpg" alt="Percurso de um Rio">
+        <figcaption>Mapa da Exposição</figcaption>
+    </figure>
+</div>
 
 <div id="intro-text">
     <p>O Fluviário de Mora possui 6 galerias expositivas onde pode conhecer mais sobre a vida aquática dulciaquícola de Portugal, da Península Ibérica e das regiões tropicais da América do Sul e de África.</p>
@@ -9,7 +14,7 @@
 
 <div id="container">
    
-    <div class="color-header"><p>Mapa da Exposição</p></div>
+    <div class="header-bar"><p>Mapa da Exposição</p></div>
     
     <div id="mapaExposicao">
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -18,37 +23,37 @@
             <rect x="15" y="392" fill="#FFFFFF" width="821" height="523"/>
 
             <g>
-                <a xlink:href="<?php echo pages_path; ?>/restaurante.php">
+                <a xlink:href="/pages/restaurante.php">
                     <rect id="Restaurante" x="707" y="588" fill="#e2e2e2" width="104" height="299"/>
                     <text id="Restaurante_Text" transform="matrix(1 0 0 1 710.2715 740.5801)" font-family="'lato'" font-size="1.1em">Restaurante</text>
                 </a>
 
-                <a xlink:href="<?php echo pages_path; ?>/monstros_rio.php">
+                <a xlink:href="/pages/monstros_rio.php">
                     <polygon id="MonstrosdoRio" fill="#e2e2e2" points="694,424 791,424 791,545 822,545 822,588 694,588 	"/>
                     <text id="MonstrosdoRio_Text" transform="matrix(1 0 0 1 704.9658 502.5)"><tspan x="0" y="0" font-family="'lato'" font-size="1.1em">Monstros</tspan><tspan x="13.433" y="22.8" font-family="'lato'" font-size="1.1em">do Rio</tspan></text>
                 </a>
 
-                <a xlink:href="<?php echo pages_path; ?>/percursoRio.php">
+                <a xlink:href="/pages/percursoRio.php">
                     <polygon id="PercursodeUmRio" fill="#e2e2e2" points="105,464 154,464 154,422 629,422 629,586 153,586 153,546 105,546"/>
                     <text id="PercursodeUmRio_Text" transform="matrix(1 0 0 1 290 512.5876)" font-family="'lato'" font-size="1.1em">Percurso de um Rio</text>
                 </a>
 
-                <a xlink:href="<?php echo pages_path; ?>/sala_saramugo.php">
+                <a xlink:href="/pages/sala_saramugo.php">
                     <rect id="SalaSaramugo" x="41" y="587" fill="#e2e2e2" width="100" height="133"/>
                     <text id="SalaSaramugo_Text" transform="matrix(1 0 0 1 73.6143 640.082)"><tspan x="0" y="0" font-family="'lato'" font-size="1.1em">Sala</tspan><tspan x="-22.351" y="21.6" font-family="'lato'" font-size="1.1em">Saramugo</tspan></text>
                 </a>
 
-                <a xlink:href="<?php echo pages_path; ?>/habitats_exoticos.php">
+                <a xlink:href="/pages/habitats_exoticos.php">
                     <rect id="HabitatsExoticos" x="280" y="589.978" fill="#e2e2e2" width="277" height="65"/>
                     <text id="HabitatsExoticos_Text" transform="matrix(1 0 0 1 350.7695 626.522)" x="0" y="0" font-family="'lato'" font-size="1.1em">Habitats Exóticos</text>
                 </a>
 
-                <a xlink:href="<?php echo pages_path; ?>/exposicao_multimedia.php">
+                <a xlink:href="/pages/exposicao_multimedia.php">
                     <rect id="ExposicaoMultimedia" x="317" y="655" fill="#e2e2e2" width="201" height="66"/>
                     <text id="ExposicaoMultimedia_Text" transform="matrix(1 0 0 1 332.5586 693.5801)" x="0" y="0" font-family="'lato'" font-size="1.1em">Exposição Multimédia</text>
                 </a>
 
-                <a xlink:href="<?php echo pages_path; ?>/sala_aula.php">
+                <a xlink:href="/pages/sala_aula.php">
                     <rect id="Laboratorio" x="154" y="732" fill="#e2e2e2" width="83" height="153"/>
                     <text id="Laboratorio_Text" transform="matrix(1 0 0 1 175.4086 787.0743)"><tspan x="2px" y="0" font-family="'lato'" font-size="1.1em">Sala</tspan><tspan x="9.734" y="26.4" font-family="'lato'" font-size="1.1em">de</tspan><tspan x="0.297" y="52.8" font-family="'lato'" font-size="1.1em">Aula</tspan></text>
                 </a>
@@ -58,12 +63,12 @@
                     <text id="Auditorio_Text" transform="matrix(1 0 0 1 264.665 813.0732)" x="0" y="0" font-family="'lato'" font-size="1.1em">Auditório</text>
                 </a>
 
-                <a xlink:href="<?php echo pages_path; ?>/loja.php">
+                <a xlink:href="/pages/loja.php">
                     <polygon id="Loja" fill="#e2e2e2" points="498,732 498,813 694,813 694,732 547,732 547,721 518,721 518,732"/>
                     <text id="Loja_Text" transform="matrix(1 0 0 1 580.4131 778.5752)" font-family="'lato'" font-size="1.1em">Loja</text>
                 </a>
 
-                <a xlink:href="<?php echo pages_path; ?>/lontrario.php">
+                <a xlink:href="/pages/lontrario.php">
                     <polygon id="Lontrario" fill="#e2e2e2" stroke="#266CA8" stroke-width="2" stroke-miterlimit="10" points="612,238 376,238
             376,186 291,186 291,138 612,138"/>
                     <text id="Lontrario_Text" transform="matrix(1 0 0 1 440.0542 194.1055)" x="0" y="0" font-family="'lato'" font-size="1.1em">Lontrário</text>
@@ -111,3 +116,5 @@
     </div>
     
 </div>
+
+<?php include "../includes/footer.inc.php"; ?>
