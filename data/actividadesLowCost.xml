@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actividadesLowCost>
+    <modulos>
+        <nome>Módulo 1</nome>
+        <descricao>Entrada + Parque Aventura (Arborismo)</descricao>
+        <publicoAlvo>2º CEB, 3º CEB e Secundário</publicoAlvo>
+        <horario>10h00 - 16h00</horario>
+        <min></min>
+        <precos>
+            <pa>2º CEB</pa>
+            <preco>4.90€ por aluno</preco>
+        </precos>
+        <precos>
+            <pa>3º CEB e Secundário</pa>
+            <preco>7.20€ por aluno</preco>
+        </precos>
+        <duracao>45 minutos</duracao>
+        <obs>Sujeito  às condições climatéricas. Parque Aventura para participantes a partir dos 6 anos e de 1,20m de altura. Contempla tempo livre na Sala de Aula.</obs>
+    </modulos>
+    <modulos>
+        <nome>Módulo 2</nome>
+        <descricao>Entrada + Visita Guiada + Parque Aventura (Arborismo)</descricao>
+        <publicoAlvo>2º CEB, 3º CEB e Secundário</publicoAlvo>
+        <horario>10h00 - 16h00</horario>
+        <min></min>
+        <precos>
+            <pa>2º CEB</pa>
+            <preco>6.90€ por aluno</preco>
+        </precos>
+        <precos>
+            <pa>3º CEB e Secundário</pa>
+            <preco>9.20€ por aluno</preco>
+        </precos>
+        <duracao>45 minutos</duracao>
+        <obs>Sujeito  às condições climatéricas. Parque Aventura para participantes a partir dos 6 anos e de 1,20m de altura. Contempla tempo livre na Sala de Aula.</obs>
+    </modulos>
+    <modulos>
+        <nome>Módulo 3</nome>
+        <descricao>Entrada + Visita Guiada + Oficina Ambiental</descricao>
+        <publicoAlvo>Pré-Escolar, 1º CEB, 2º CEB, 3º CEB e Secundário</publicoAlvo>
+        <min>15</min>
+        <precos>
+            <pa>Pré-Escolar, 1º CEB e 2º CEB</pa>
+            <preco>7.90€ por aluno</preco>
+        </precos>
+        <precos>
+            <pa>3º CEB e Secundário</pa>
+            <preco>9.90€ por aluno</preco>
+        </precos>
+        <duracao>A Oficina ambiental tem a duração de 55 minutos</duracao>
+        <obs></obs>
+    </modulos>
+    <modulos>
+        <nome>Módulo 4</nome>
+        <descricao>Entrada + Visita Guiada + Lanche com Surpresas</descricao>
+        <publicoAlvo>Pré-Escolar, 1º CEB, 2º CEB, 3º CEB e Secundário</publicoAlvo>
+        <min></min>
+        <precos>
+            <pa>Pré-Escolar, 1º CEB e 2º CEB</pa>
+            <preco>7.90€ por aluno</preco>
+        </precos>
+        <precos>
+            <pa>3º CEB e Secundário</pa>
+            <preco>9.90€ por aluno</preco>
+        </precos>
+        
+    </modulos>
+    <modulos>
+        <nome>Módulo 5</nome>
+        <descricao>Entrada + Visita Guiada + Passeio à beira Rio + Piquenique</descricao>
+        <publicoAlvo>Pré-Escolar, 1º CEB, 2º CEB, 3º CEB e Secundário</publicoAlvo>
+        <min>15</min>
+        <precos>
+            <pa>Pré-Escolar, 1º CEB e 2º CEB</pa>
+            <preco>8.90€ por aluno</preco>
+        </precos>
+        <precos>
+            <pa>3º CEB e Secundário</pa>
+            <preco>10.90€ por aluno</preco>
+        </precos>
+        <duracao>Passeio à beira rio: 40 minutos. Piquenique: 30 minutos</duracao>
+        <obs>Sujeito às condições climatéricas. Contempla tempo livre na Sala de Aula.</obs>
+    </modulos>
+    <modulos>
+        <nome>Módulo 6</nome>
+        <descricao>Entrada + Almoço no Restaurante</descricao>
+        <publicoAlvo>Pré-Escolar, 1º CEB, 2º CEB, 3º CEB e Secundário</publicoAlvo>
+        <horario>12h30 - 14h00</horario>
+        <min></min>
+        <precos>
+            <pa>Pré-Escolar, 1º CEB e 2º CEB</pa>
+            <preco>10.90€ por aluno</preco>
+        </precos>
+        <precos>
+            <pa>3º CEB e Secundário</pa>
+            <preco>13.20€ por aluno</preco>
+        </precos>
+        <duracao>Passeio à beira rio: 40 minutos. Piquenique: 30 minutos</duracao>
+        <obs>Máximo de 55 participantes. Contempla tempo livre na Sala de Aula.</obs>
+    </modulos>
+</actividadesLowCost>

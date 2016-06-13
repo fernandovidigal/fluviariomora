@@ -98,3 +98,59 @@ $(function() {
     
     ImgSlider.init({duration: 3000});
 });
+
+
+var areas_clicaveis = $('#mapaExposicao svg g a');
+
+$(areas_clicaveis).each(function(){
+    
+    $(this).children('rect').on({
+        mouseenter: function() {
+            $(this).css('fill', '#96c539');
+            $(this).next().css('fill', '#ffffff');
+        },
+        mouseleave: function() {
+            $(this).css('fill', '#e2e2e2');
+            $(this).next().css('fill', '#333333');
+        }
+    });
+    
+    $(this).children('polygon').on({
+        mouseenter: function() {
+            $(this).css('fill', '#96c539');
+            $(this).next().css('fill', '#ffffff');
+        },
+        mouseleave: function() {
+            $(this).css('fill', '#e2e2e2');
+            $(this).next().css('fill', '#333333');
+        }
+    });
+    
+    $(this).children('text').on({
+        mouseenter: function() {
+            $(this).css('fill', '#ffffff');
+            $(this).prev().css('fill', '#96c539');
+        },
+        mouseleave: function() {
+            $(this).css('fill', '#333333');
+            $(this).prev().css('fill', '#e2e2e2');
+        }
+    });
+    
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

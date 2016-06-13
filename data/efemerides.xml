@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ferias>
+    <actividade>
+       <nome>Monstrinhos do Rio</nome>
+       <imgURL>../imagens/actividades/halloween.jpg</imgURL>
+       <descricao>Halloween no Fluviário</descricao>
+       <datas>1 de Novembro</datas>
+    </actividade>
+    <actividade>
+       <nome>Bolota, a castanha do Alentejo</nome>
+       <imgURL>../imagens/actividades/bolota_castanha_alentejo.jpg</imgURL>
+       <descricao>Dia de São Martinho no Fluviário</descricao>
+       <datas>10 de Novembro</datas>
+    </actividade>
+    <actividade>
+       <nome>Notas de um Caderno Vermelho</nome>
+       <imgURL>../imagens/actividades/Dia_de_Darwin.jpg</imgURL>
+       <descricao>Dia de Darwin no Fluviário</descricao>
+       <datas>12 de Fevereiro</datas>
+    </actividade>
+    <actividade>
+       <nome>Barbatana Comigo</nome>
+       <imgURL>../imagens/actividades/dia_namorados.jpg</imgURL>
+       <descricao>Dia dos Namorados no Fluviário</descricao>
+       <datas>14 de Fevereiro</datas>
+    </actividade>
+    <actividade>
+       <nome>Raízes de Água Pura</nome>
+       <imgURL>../imagens/actividades/aniversario_fluviario.jpg</imgURL>
+       <descricao>Aniversário do Fluviário de Mora</descricao>
+       <datas>21 de Março</datas>
+    </actividade>
+    <actividade>
+       <nome>Um Planeta, Uma Natureza, Uma Infância</nome>
+       <imgURL>../imagens/actividades/dia_crianca.jpg</imgURL>
+       <descricao>Dia da criança no Fluviário</descricao>
+       <datas>1 de Junho</datas>
+    </actividade>
+</ferias>

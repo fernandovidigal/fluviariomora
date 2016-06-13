@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oficinasAmbientais>
+    <actividade>
+       <nome>Se tu visses o que eu vi</nome>
+       <imgURL>../imagens/actividades/se_tu_visses_o_que_eu_vi.jpg</imgURL>
+       <descricao>A água é fantástica! Vamos experimentar as propriedades únicas da água, construir a noção de densidade e explorar a água como solvente.</descricao>
+       <obs>Participantes a partir dos 4 anos.</obs>
+    </actividade>
+    <actividade>
+       <nome>Um Aquário à minha medida</nome>
+       <imgURL>../imagens/actividades/aquario_a_medida.jpg</imgURL>
+       <descricao>Um aquário pode ser uma grande experiência de vida! Estamos prontos para te receber, para dialogarmos sobre aquários e aprofundar diversos aspectos relacionados com este mundo, como alguns dos temas mais complexos sobre a manutenção de espécies sob cuidados humanos.</descricao>
+       <obs>Participantes a partir dos 6 anos.</obs>
+    </actividade>
+    <actividade>
+       <nome>Pinta, Risca e Pontilha</nome>
+       <imgURL>../imagens/actividades/pinta_risca_pontilha.jpg</imgURL>
+       <descricao>Com muita destreza e imaginação, vamos reutilizar materiais.</descricao>
+       <obs>Participantes a partir dos 3 anos.</obs>
+    </actividade>
+    
+    <dados>
+       <desc>Entrada + Oficina Ambiental</desc>
+       <horario>10h00 - 16h00</horario>
+       <duracao>45 minutos</duracao>
+       <preco>Bilhete + 3.00€/Participante</preco>
+       <obs>A actividade decorre todo o ano.</obs>
+    </dados>
+</oficinasAmbientais>
