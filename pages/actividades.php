@@ -1,21 +1,26 @@
-<?php include "../includes/header.inc.php"; ?>
+<?php 
+    require_once "../includes/config.inc.php";
+    include_once "../includes/header.inc.php";
+?>
 
 <div id="imagem-illustrativa">
     <div class="img-overlay"></div>
     <figure>
-        <img src="/imagens/actividades.jpg" alt="Percurso de um Rio">
+        <img src="<?php echo img_path; ?>/actividades.jpg" alt="Percurso de um Rio">
         <figcaption>Actividades</figcaption>
     </figure>
 </div>
 
 <div id="container">
+   
+    <div id="actividades-content">
     
-    <?php include_once "../includes/menu_lateral_actividades.inc.php"; ?>
-                
-    <div id="content">
-        <div class="header-bar"><p>Programa Científico e Pedagógico</p></div>
-        
-        <div class="content-text">
+        <?php include_once "../includes/menu_lateral_actividades.inc.php"; ?>
+
+        <section id="descricaoActividades">
+
+            <div class="header-bar"><p>Programa Científico e Pedagógico</p></div>
+
             <p>O Programa Científico e Pedagógico do Fluviário serviu de base para a elaboração do Projecto Educativo do Fluviário Falas do Rio, partindo das seguintes premissas:</p>
             <ul>
                 <li>O Aquário pode ser um grande Mestre, na relação entre as diferentes formas de vida;</li>
@@ -28,20 +33,19 @@
             <a href="">Programa Pedagógico 2015/2016 [PDF]</a><br>
             <a href="">Sugestões de Actividades 2015/2016 [PDF]</a>
             </p>
-        </div>
-        
-        <div class="header-bar"><p>Público-Alvo</p></div>
-        <div class="content-text">
+
+            <div class="header-bar"><p>Público-Alvo</p></div>
             <p>Todos os visitantes do Fluviário de Mora, entre os quais:</p>
             <ul>
                 <li>Instituições de Ensino</li>
                 <li>Grupos Organizados;</li>
                 <li>Grupos Familiares.</li>
             </ul>
-        </div>
+
+        </section>
     </div>
     
 </div>
 
-<?php include "../includes/footer.inc.php"; ?>
+<?php include_once "../includes/footer.inc.php"; ?>
 

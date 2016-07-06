@@ -1,5 +1,9 @@
+var fluviarioDropMenuOpen = false;
+var exposicaoDropMenuOpen = false;
+
+
 $(function() {
-   
+    
     var ImgSlider = (function() {
         
         var pb = {};
@@ -96,7 +100,87 @@ $(function() {
         
     }());
     
-    ImgSlider.init({duration: 3000});
+    // Inicia o slider apenas nas páginas onde existir a <div id="slider-wrapper">...</div>
+    if($("#slider-wrapper").length) {
+        ImgSlider.init({duration: 3000});
+        
+        // Define a altura do slider de imagens
+        $(window).load(function(){
+            $("#slider-wrapper").height($("img.active-slider-img").height());
+        });
+    }
+    
+    // Menu para mobile e phablet
+    if($(window).width() < 750)
+    {        
+        $(".dropSubMenu").on("click", function(){
+
+            var subMenu = $(this).children("ul.drop-menu");
+            var tituloMenu = $(this).children("p");
+            var menuIrmao = $(this).siblings("li.dropSubMenu");
+            var setaMenuIrmao = menuIrmao.children("p").children("span");
+
+            if(subMenu.css("display") == "none") {
+                subMenu.css("display", "block");
+                menuIrmao.children("ul").css("display", "none");
+                setaMenuIrmao.removeClass();
+                setaMenuIrmao.addClass("right-drop-arrow");
+            } else {
+                subMenu.css("display", "none");
+            }
+
+            tituloMenu.children("span").toggleClass("right-drop-arrow down-drop-arrow");
+
+        });
+
+
+        $("#menu-toogle").on("click", function(){
+            $("#overlay").show();
+            $("#top-menu").css("right", "0px");
+        });
+
+        $("#close-drop-menu, #overlay").on("click", function(){
+
+            var seta = $("#top-menu ul li p").children("span");
+
+            $("#top-menu").css("right", "-200px");
+            $("#overlay").hide();
+            $("#top-menu ul li ul").css("display", "none");
+            seta.removeClass();
+            seta.addClass("right-drop-arrow");
+        });
+    } else {
+        // Menu já é horizontal, remove as setas
+        //$("#top-menu ul li p").children("span").remove();
+    }
+
+    
+    // Menu Mobile das páginas das actividades
+    if($("#menu-lateral").length){
+        
+        $("#menu-lateral .sub-menu").on("click", function(){
+            
+            var menu = $(this).children("ul");
+            var menuIrmao = $(this).siblings();
+            var setaMenuIrmao = menuIrmao.children("p").children("span");
+            
+            if(menu.css("display") == "none") {
+                menu.css("display", "block");
+                // Fecha o outro menu
+                menuIrmao.children("ul").css("display", "none");
+                setaMenuIrmao.removeClass();
+                setaMenuIrmao.addClass("right-drop-arrow");
+            } else {
+                menu.css("display", "none");
+            }
+            
+            // Mostra a seta para baixo
+            $(this).children("p").children("span").toggleClass("right-drop-arrow down-drop-arrow");
+            
+        });
+            
+    }
+
 });
 
 
