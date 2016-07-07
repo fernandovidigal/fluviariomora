@@ -32,6 +32,19 @@
                 echo '<img src="../imagens/noticias/'.$noticia->imgUrl.'" alt="'.$noticia->imgUrl.'">';
                 echo '<h2>'.$noticia->titulo.'</h2>';
                 echo $noticia->corpo;
+                
+                // Trata Dos Anexos
+                if($noticia->anexo)
+                {
+                    echo "<div class='anexos'>";
+                    echo "<p><strong>Anexos:</strong></p>";
+                    foreach($noticia->anexo as $anexo)
+                    {
+                        echo "<a href='".$anexo->link."'>".$anexo->nome."</a><br/>";
+                    }
+                    echo "</div>";
+                }
+                
             } else {
                 header("Location: noticias.php");
             }

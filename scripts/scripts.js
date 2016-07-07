@@ -3,7 +3,7 @@ var exposicaoDropMenuOpen = false;
 
 
 $(function() {
-    
+
     var ImgSlider = (function() {
         
         var pb = {};

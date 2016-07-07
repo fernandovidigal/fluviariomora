@@ -330,7 +330,7 @@ header #menu-toogle {
 }
 
 .destaques {
-    max-width: 48%;
+    width: 48%;
     background-color: #ffffff;
     border: solid 1px #bbbbbb;
     text-align: center;
@@ -341,10 +341,11 @@ header #menu-toogle {
 .destaques img {
     display: block;
     width: 100%;
-    max-height: 96px;
+    height: 96px;
 }
 
 .destaques hr, .actividade hr {
+    width: 100%;
     height: 4px;
     background-color: #759fc4;
     border: none;
@@ -401,7 +402,7 @@ footer {
     width: 100%;
     margin-top: 40px;
     background-color: #266ca8;
-    height: 150px;
+    height: 130px;
 }
 
 #social-icons {
@@ -673,6 +674,67 @@ h3 {
     margin-bottom: 10px;
 }
 
+.anexos {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.anexos a {
+    margin-left: 20px;
+    font-size: 0.9em;
+}
+
+/* =============== BILHETEIRA =============== */
+
+.tabelaPrecos {
+    width: 100%;
+}
+
+.tabelaPrecos th {
+    background-color: #266ca8;
+    color: #ffffff;
+    padding: 4px 0;
+    font-weight: 300;
+}
+
+.tabelaPrecos td {
+    font-size: 0.8em;
+    padding: 10px;
+    text-align: center;
+}
+
+.lessPadding th {
+    padding: 4px 1px;
+}
+
+.tabelaPrecos tr {
+   background-color: #ffffff;
+}
+
+/* =============== HORÁRIO =============== */
+
+#estacaoWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#estacaoWrapper .estacao {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#estacaoWrapper .estacao img {
+    margin-bottom: 20px;
+}
+
+#estacaoWrapper .estacao p {
+    font-size: 1.05em;
+}
+
 /* ============================================= */
 /* =============== MEDIA QUERIES =============== */
 /* ============================================= */
@@ -688,18 +750,6 @@ h3 {
     
     .destaques img {
         min-height: 120px;
-    }
-    
-    footer {
-        height: 100px;
-        display: flex;
-        justify-content: space-between;
-        padding-top: 10px;
-    }
-    
-    #newsletter {
-        margin-top: 0px;
-        margin-right: 10px;
     }
     
     #menu-lateral {
@@ -721,6 +771,10 @@ h3 {
     .especie img {
         width: 60%;
         max-width: 220px;
+    }
+    
+    #estacaoWrapper {
+        flex-direction: row;
     }
 }
 
@@ -747,6 +801,18 @@ h3 {
         min-height: 90px;
     }
     
+    footer {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+    }
+    
+    #newsletter {
+        margin-top: 0px;
+        margin-right: 10px;
+    }
+    
     #noticia-wrapper img {
         max-width: 40%;
     }
@@ -754,6 +820,8 @@ h3 {
     #noticia-wrapper p {
         font-size: 0.9em;
     }
+    
+    
     
 }
 
@@ -985,6 +1053,15 @@ h3 {
     #noticia-wrapper p {
         font-size: 0.9em;
     }
+    
+    .tabelaPrecos {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .tabelaPrecos td {
+        font-size: 0.9em;
+    }
 }
 
 /* Larger than desktop */
@@ -1057,19 +1134,20 @@ h3 {
         font-size: 0.9em;
     }
     
+    
+    
 }
 
 /* Larger than Desktop HD */
-/* Default é 1200px */
 @media (min-width: 1200px) {
     
     body {
-        max-width: 1150px;
+        max-width: 1100px;
         margin: 0 auto;
     }
     
     p, ul li {
-        font-size: 1.05em;
+        font-size: 1em;
     }
     
     .spacer-bottom-60 {
@@ -1114,6 +1192,7 @@ h3 {
     .destaques {
         width: 350px;
         min-height: 300px;
+        text-align: center;
     }
     
     .destaques img {
@@ -1185,6 +1264,15 @@ h3 {
     }
 
     .actividade p {
+        font-size: 1em;
+    }
+    
+    .tabelaPrecos {
+        width: 70%;
+    }
+    
+    .tabelaPrecos th,
+    .tabelaPrecos td {
         font-size: 1em;
     }
 }

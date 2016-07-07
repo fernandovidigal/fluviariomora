@@ -12,10 +12,10 @@
     </div>
 
     <ul id="slider-menu">
-        <li><a href="#"><img src="<?php echo img_path; ?>/ticket_icon.png" alt="">Bilheteira</a></li>
-        <li><a href="#"><img src="<?php echo img_path; ?>/horario_icon.png" alt="">Horário</a></li>
+        <li><a href="<?php echo pages_path; ?>/bilheteira.php"><img src="<?php echo img_path; ?>/ticket_icon.png" alt="">Bilheteira</a></li>
+        <li><a href="<?php echo pages_path; ?>/horario.php"><img src="<?php echo img_path; ?>/horario_icon.png" alt="">Horário</a></li>
         <li><a href="<?php echo pages_path; ?>/actividades.php"><img src="<?php echo img_path; ?>/actividades_icon.png" alt="">Actividades</a></li>
-        <li><a href="#"><img src="<?php echo img_path; ?>/comoChegar_icon.png" alt="">Como Chegar</a></li>
+        <li><a href="<?php echo pages_path; ?>/comoChegar.php"><img src="<?php echo img_path; ?>/comoChegar_icon.png" alt="">Como Chegar</a></li>
     </ul>
 
     <div id="image-bullets">

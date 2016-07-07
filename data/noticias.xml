@@ -2,7 +2,7 @@
 <noticias>
      <noticia>
         <titulo>Fluviário de Mora premiado com Certificado de Excelência TripAdvisor®</titulo>
-        <imgUrl>imagens/noticias/tripadvisor.jpg</imgUrl>
+        <imgUrl>tripadvisor.jpg</imgUrl>
         <corpo><![CDATA[
         <p>O Fluviário de Mora anunciou hoje que recebeu um prémio do Certificado de Excelência TripAdvisor®. Este certificado, agora no seu sexto ano, premeia as empresas de hotelaria que obtiveram avaliações excelentes por parte dos viajantes no TripAdvisor no último ano.</p>
         <p>Os destinatários do Certificado de Excelência incluem alojamentos, restaurantes e atracções situados em todo o mundo que tenham proporcionado de forma contínua uma experiência de cliente de qualidade.
@@ -16,7 +16,7 @@
     </noticia>
     <noticia>
         <titulo>Música no Rio, os Outros Sons do Fluviário</titulo>
-        <imgUrl>imagens/noticias/festivalMusicasRio2016Header.jpg</imgUrl>
+        <imgUrl>festivalMusicasRio2016Header.jpg</imgUrl>
         <corpo><![CDATA[
         <p>A 7ª edição do “Festival EDP - Música no Rio, os Outros Sons do Fluviário" regressa ao Parque Ecológico do Gameiro - área envolvente do Fluviário de Mora - nos fins de semana 8 e 9 de Julho e 15 e 16 de Julho. Este espaço vai acolher uma selecção de diversos estilos musicais que assinalam mais uma vez o ponto de arranque para um evento especial, quer pela envolvência do espaço, quer pela distinção na eleição dos artistas que estarão em palco.</p>
         <p>A Sinfonietta de Lisboa e a soprano Isabel Alcobia abrem o festival na sexta-feira, dia 8 de Julho, com trechos de Mozart, Samuel Barber e Beethoven. No dia seguinte, 9 de Julho, o quarteto “Latitude Quatro” apresenta “Músicas do Mundo” de Portugal, Argentina, Itália e Inglaterra.</p>
@@ -26,12 +26,12 @@
         ]]></corpo>
         <anexo>
             <nome>Cartaz da 7ª edição do “Festival EDP - Música no Rio, os Outros Sons do Fluviário"</nome>
-            <link>imagens/noticias/cartaz-Musica-no-rio-2016.jpg</link>
+            <link>cartaz-Musica-no-rio-2016.jpg</link>
         </anexo>
     </noticia>
     <noticia>
         <titulo>Fluviário de Mora assinala o Dia da Criança</titulo>
-        <imgUrl>imagens/noticias/diacrianca.jpg</imgUrl>
+        <imgUrl>diacrianca.jpg</imgUrl>
         <corpo><![CDATA[
         <p>Fluviário de Mora assinala o Dia da Criança com actividade no dia 1 de Junho e entradas gratuitas no fim-de-semana de 4 e 5 de Junho!</p>
         <p>O Fluviário de Mora celebra o Dia Mundial da Criança, no dia 1 de Junho, com a actividade “Um Planeta, Uma Natureza, Uma Infância – Deixar a Imaginação Voar”. Todos os visitantes deste espaço podem construir papagaios de papel na Sala de Aula, das mais variadas formas e cores. De seguida, na área envolvente do Fluviário de Mora – o Parque Ecológico do Gameiro – poderão lançar os seus papagaios de papel, em plena natureza. </p>
@@ -41,7 +41,7 @@
     </noticia>
     <noticia>
         <titulo>Prémio Fluviário, Jovem Cientista do Ano 2015</titulo>
-        <imgUrl>imagens/noticias/premio2015.jpg</imgUrl>
+        <imgUrl>premio2015.jpg</imgUrl>
         <corpo><![CDATA[
         <p>O investigador Rui Rivaes, do Instituto Superior de Agronomia (ISA) da Universidade de Lisboa, venceu o 6.º Prémio Fluviário - Jovem Cientista do Ano, relativo a 2015. O prémio, instituído pelo Fluviário de Mora, no distrito de Évora, distingue anualmente um aluno (de licenciatura, mestrado ou doutoramento) que tenha publicado, como primeiro autor e no ano do concurso, um artigo sobre conservação e biodiversidade de recursos aquáticos continentais (estuários e rios). O vencedor desta 6.ª edição do concurso é aluno de doutoramento no ISA e venceu com o artigo científico "Reducing river regulation effects on riparian vegetation using flushing flow regimes", publicado na revista especializada Ecological Engineering. O artigo vencedor, que é também assinado por outros investigadores, "aborda os efeitos na vegetação ripária da regulação dos caudais dos rios", disse à agência Lusa a bióloga responsável do Fluviário de Mora, Luísa Sousa.</p>
         <p>Para a 6.ª edição do Prémio Jovem Cientista do Ano, relativa a 2015, o Fluviário recebeu um total de 16 candidaturas, tendo sido validado igual número de artigos científicos.</p>
@@ -53,21 +53,21 @@
     </noticia>
     <noticia>
         <titulo>Novo Endereço de Email</titulo>
-        <imgUrl>imagens/noticias/novoEmail.png</imgUrl>
+        <imgUrl>novoEmail.png</imgUrl>
         <corpo><![CDATA[
         <p>Fluviário de Mora tem um novo endereço de correio electrónico. Agora pode entrar em contacto connosco em <a href="mailto:geral@fluviariomora.pt">geral@fluviariomora.pt</a>!</p>
         ]]></corpo>
     </noticia>
     <noticia>
         <titulo>Horário de Verão</titulo>
-        <imgUrl>imagens/noticias/horarioVerao.png</imgUrl>
+        <imgUrl>horarioVerao.png</imgUrl>
         <corpo><![CDATA[
         <p>O Fluviário de Mora já se encontra em horário de Verão, com abertura às 10h00 e encerramento às 19h00.</p>
         ]]></corpo>
     </noticia>
     <noticia>
         <titulo>Férias da Páscoa no Fluviário de Mora</titulo>
-        <imgUrl>imagens/noticias/feriasDaPascoa.jpg</imgUrl>
+        <imgUrl>feriasDaPascoa.jpg</imgUrl>
         <corpo><![CDATA[
         <p>Com a chegada da Páscoa é tempo de actividades de férias no Fluviário de Mora com o programa “Águas Transparentes para umas Férias Diferentes”. As actividades de Férias da Páscoa do Fluviário de Mora começam a 19 de Março – Dia do Pai, e decorrem até dia 3 de Abril. Visite o Fluviário de Mora de mapa na mão e descubra “Os Ovos Arco-íris”. Solicite o mapa dos “Ovos Arco-íris” na bilheteira do Fluviário de Mora, desvende os enigmas, siga as pistas e encontre os “Ovos Arco-íris”. No final da sua visita entregue o mapa na bilheteira do Fluviário de Mora e aguarde uma surpresa.</p>
  
@@ -88,7 +88,7 @@
     </noticia>
     <noticia>
         <titulo>Quer conhecer o Fluviário de Mora ao pormenor?</titulo>
-        <imgUrl>imagens/noticias/VisitasGuiadasGratuitas.jpg</imgUrl>
+        <imgUrl>VisitasGuiadasGratuitas.jpg</imgUrl>
         <corpo><![CDATA[
         <p>Se tem um grupo de crianças ou séniores e fizer a sua marcação até ao dia 15 de Março, a visita guiada é gratuita.</p>
         <p>Aproveite!</p>
@@ -96,7 +96,7 @@
     </noticia>
     <noticia>
         <titulo>Dia dos Namorados no Fluviário de Mora</titulo>
-        <imgUrl>imagens/noticias/diaNamorados.jpg</imgUrl>
+        <imgUrl>diaNamorados.jpg</imgUrl>
         <corpo><![CDATA[
         <p>Barbatana Comigo no Fluviário de Mora</p>
         <p>Barbatana Comigo" é o nome da actividade do Dia dos Namorados que o Fluviário de Mora preparou para todos os seus visitantes.</p>
@@ -106,7 +106,7 @@
     </noticia>
     <noticia>
         <titulo>Cientistas recebem prémio para estudar peixe português ameaçado</titulo>
-        <imgUrl>imagens/noticias/boga-de-lisboa2-Hugo-Gante.jpg</imgUrl>
+        <imgUrl>boga-de-lisboa2-Hugo-Gante.jpg</imgUrl>
         <corpo><![CDATA[
         <p>A boga-de-boca-arqueada de Lisboa (Iberochondrostoma olisiponensis) é um peixe de água doce que se encontra apenas em Portugal.</p>
         <p>Investigadores receberam um prémio internacional para estudarem melhor esta espécie criticamente ameaçada. O Fluviário de Mora também é parceiro neste projecto.</p>
@@ -115,7 +115,7 @@
     </noticia>
     <noticia>
         <titulo>Fluviário com nova página de Facebook</titulo>
-        <imgUrl>imagens/noticias/facebook_novaPagina.jpg</imgUrl>
+        <imgUrl>facebook_novaPagina.jpg</imgUrl>
         <corpo><![CDATA[
         <p>Por motivos de ordem técnica o Fluviário de Mora vai passar a ter uma nova página de Facebook. Desde o dia 18 de Novembro que não é possível actualizar os conteúdos da antiga página.</p>
         <p>Tendo em conta a importância das redes sociais enquanto canal de comunicação para a divulgação de actividades diversas e difusão de informação, o Fluviário de Mora continuará presente no Facebook.</p>
@@ -125,7 +125,7 @@
     </noticia>
     <noticia>
         <titulo>Venha conhecer os novos habitantes!</titulo>
-        <imgUrl>imagens/noticias/raia.jpg</imgUrl>
+        <imgUrl>raia.jpg</imgUrl>
         <corpo><![CDATA[
         <p>Já conhece os nossos novos habitantes?</p>
         <p>Os novos "habitantes" de água salgada, mais concretamente seis pargos, quatro corvinas e duas raias, anunciou hoje a administração daquele equipamento alentejano.</p>
@@ -134,7 +134,7 @@
     </noticia>
     <noticia>
         <titulo>Actividades de Natal</titulo>
-        <imgUrl>imagens/noticias/piranha.jpg</imgUrl>
+        <imgUrl>piranha.jpg</imgUrl>
         <corpo><![CDATA[
         <p>O <strong>Mistério do Natal</strong> dá o mote ao programa de actividades, para todas as idades, de férias de Natal do Fluviário de Mora, dedicado ao espírito natalício neste mundo de água doce: nos rios, nos lagos, na chuva e até nos flocos de neve, de <strong>19 de Dezembro de 2015</strong> a <strong>3 de Janeiro de 2016</strong>.</p>
         <p>E que mistério será este? Para o desvendar basta pedir o mapa d'O Mistério do Natal na entrada do Fluviário de Mora e seguir as pistas, e no final da visita entregá-lo na saída para desvendar o mistério. Esta actividade destina-se a todos os visitantes do Fluviário de Mora e é gratuita.</p>

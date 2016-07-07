@@ -4,28 +4,74 @@
     <meta charset="UTF-8">
     <title>Teste aos Pseudo::Elements :before :after</title>
 <style type="text/css">
-
-    .img-container {
-        width: 200px;
-        height: 100px;
-        overflow: hidden;
-        position: relative;
+    
+    * {
+        margin: 0;
+        padding: 0;
     }
     
-    .img-container img {
+    body {
+        margin: 50px;
+    }
+
+    .destaques {
+        width: 200px;
+        height: 500px;
+        border: solid 1px #bbbbbb;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .destaques img {
         display: block;
+        max-width: 100%;
+        max-height: 90px;
+        width: auto;
+        height: auto;
+    }
+    
+    .destaques hr {
         width: 100%;
-        position: absolute;
-        top: -50%;
+        height: 4px;
+        background-color: #759fc4;
+        border: none;
+    }
+    
+    .destaques p {
+        width: 100%;
+        font-size: 1em;
+        color: #96c539;
+        font-weight: 700;
+        line-height: 1.2em;
+        margin-top: 10px;
+        padding: 0 10px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .destaques a {
+        margin-top: auto;
     }
 
 </style>
 </head>
 <body>
-    
-    <div class="img-container">
-        <img src="imagens/noticias/novoEmail.png" alt="">
+   
+   <div class="destaques">
+        <img src="imagens/noticias/tripadvisor.jpg" alt="">
+        <hr>
+        <p class="noticia-title">TripAdvisor</p>
+        <a href="#" class="noticia-btn">Ver</a>
     </div>
+    
+    <div class="destaques">
+        <img src="imagens/noticias/festivalMusicasRio2016Header.jpg" alt="">
+        <hr>
+        <p class="noticia-title">TripAdvisor</p>
+        <a href="#" class="noticia-btn">Ver</a>
+    </div> 
     
 </body>
 </html>

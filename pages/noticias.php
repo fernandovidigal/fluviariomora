@@ -49,7 +49,7 @@
                 echo '<div class="destaques">';
                 echo '<img src="../imagens/noticias/'.$noticia->imgUrl.'" alt="'.$noticia->imgUrl.'">';
                 echo '<hr>';
-                echo '<p class="noticia-title">'.$noticia->titulo.'</h2>';
+                echo '<p class="noticia-title">'.$noticia->titulo.'</p>';
                 echo '<a href="noticia.php?n='.$indice.'" class="noticia-btn">Ver</a>';
                 echo "</div>"; 
             }
@@ -68,7 +68,7 @@
                 echo '<div class="destaques">';
                 echo '<img src="../imagens/noticias/'.$noticia->imgUrl.'" alt="'.$noticia->imgUrl.'">';
                 echo '<hr>';
-                echo '<p class="noticia-title">'.$noticia->titulo.'</h2>';
+                echo '<p class="noticia-title">'.$noticia->titulo.'</p>';
                 echo '<a href="noticia.php?n='.$i++.'" class="noticia-btn">Ver</a>';
                 echo "</div>";
             }
