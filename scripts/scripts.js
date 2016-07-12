@@ -1,7 +1,3 @@
-var fluviarioDropMenuOpen = false;
-var exposicaoDropMenuOpen = false;
-
-
 $(function() {
 
     var ImgSlider = (function() {
@@ -102,16 +98,18 @@ $(function() {
     
     // Inicia o slider apenas nas páginas onde existir a <div id="slider-wrapper">...</div>
     if($("#slider-wrapper").length) {
-        ImgSlider.init({duration: 3000});
-        
         // Define a altura do slider de imagens
         $(window).load(function(){
             $("#slider-wrapper").height($("img.active-slider-img").height());
         });
+        
+        // Inicia o rotativo das imagens
+        ImgSlider.init({duration: 3000});
     }
     
     // Menu para mobile e phablet
-    if($(window).width() < 750)
+    // Width 733px é o width interno par a750px
+    if($(window).width() < 733)
     {        
         $(".dropSubMenu").on("click", function(){
 
@@ -149,36 +147,36 @@ $(function() {
             seta.removeClass();
             seta.addClass("right-drop-arrow");
         });
+        
+        // Menu Mobile das páginas das actividades
+        if($("#menu-lateral").length){
+
+            $("#menu-lateral .sub-menu").on("click", function(){
+
+                var menu = $(this).children("ul");
+                var menuIrmao = $(this).siblings();
+                var setaMenuIrmao = menuIrmao.children("p").children("span");
+
+                if(menu.css("display") == "none") {
+                    menu.css("display", "block");
+                    // Fecha o outro menu
+                    menuIrmao.children("ul").css("display", "none");
+                    setaMenuIrmao.removeClass();
+                    setaMenuIrmao.addClass("right-drop-arrow");
+                } else {
+                    menu.css("display", "none");
+                }
+
+                // Mostra a seta para baixo
+                $(this).children("p").children("span").toggleClass("right-drop-arrow down-drop-arrow");
+
+            });
+
+        }
+        
     } else {
         // Menu já é horizontal, remove as setas
         //$("#top-menu ul li p").children("span").remove();
-    }
-
-    
-    // Menu Mobile das páginas das actividades
-    if($("#menu-lateral").length){
-        
-        $("#menu-lateral .sub-menu").on("click", function(){
-            
-            var menu = $(this).children("ul");
-            var menuIrmao = $(this).siblings();
-            var setaMenuIrmao = menuIrmao.children("p").children("span");
-            
-            if(menu.css("display") == "none") {
-                menu.css("display", "block");
-                // Fecha o outro menu
-                menuIrmao.children("ul").css("display", "none");
-                setaMenuIrmao.removeClass();
-                setaMenuIrmao.addClass("right-drop-arrow");
-            } else {
-                menu.css("display", "none");
-            }
-            
-            // Mostra a seta para baixo
-            $(this).children("p").children("span").toggleClass("right-drop-arrow down-drop-arrow");
-            
-        });
-            
     }
 
 });
@@ -222,19 +220,3 @@ $(areas_clicaveis).each(function(){
     });
     
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

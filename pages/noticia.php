@@ -6,14 +6,14 @@
 <div id="imagem-illustrativa">
     <div class="img-overlay"></div>
     <figure>
-        <img src="<?php echo img_path; ?>/loja.jpg" alt="Percurso de um Rio">
+        <img src="<?php echo img_path; ?>/noticias.jpg" alt="Percurso de um Rio">
         <figcaption>Notícia</figcaption>
     </figure>
 </div>
 
 <div id="container">
     
-    <div class="header-bar"><p>Notícias</p></div>
+    <div class="header-bar"><p>Notícia</p></div>
 
     <div id="noticia-wrapper">
     

@@ -3,27 +3,27 @@
     <publicoAlvo tipo="Pré-Escolar (3 a 5 anos)">
         <actividade>
            <nome>À Pesca de Letras</nome>
-           <imgURL>../imagens/actividades/eduPescaLetras.jpg</imgURL>
+           <imgURL>eduPescaLetras.jpg</imgURL>
            <descricao>São os peixes a nadar e salpicos não vão faltar! Que desenhos originais têm estes animais. Vamos aprender com eles? O que será que escondem lá no rio misterioso onde vivem? Nesta actividade vamos proporcionar de uma forma lúdica a emergência e imitação da escrita, com recurso ao contexto e materiais próprios dos rios, fomentando o diálogo.</descricao>
         </actividade>
         <actividade>
             <nome>Formas e Cores</nome>
-            <imgURL>../imagens/actividades/formas_e_cores.jpg</imgURL>
+            <imgURL>formas_e_cores.jpg</imgURL>
             <descricao>Tantos peixes! São um cardume. São todos iguais? Olha um peixe-cobra, e acolá cheio de bolinhas e o outro parece uma borboleta! Vamos incentivar a seriação e ordenação, diferenciar princípios lógicos e estimulando a construção de noções espaciais.</descricao>
         </actividade>
         <actividade>
             <nome>Se eu fosse um Peixinho</nome>
-            <imgURL>../imagens/actividades/se_eu_fosse_um_peixinho.jpg</imgURL>
+            <imgURL>se_eu_fosse_um_peixinho.jpg</imgURL>
             <descricao>Se fosses um peixinho, onde viverias? O que é uma escama? Conseguirias ver, ouvir e comunicar? E cantar? Vamos desenvolver a imaginação e criatividade, promover a descoberta dos materiais que pertencem aos rios, incentivar a utilização de materiais de desperdício e fomentar a curiosidade pela natureza.</descricao>
         </actividade>
         <actividade>
             <nome>Plantas e Bichos</nome>
-            <imgURL>../imagens/actividades/pantas_e_bichos.jpg</imgURL>
+            <imgURL>pantas_e_bichos.jpg</imgURL>
             <descricao>Que flor tão bonita que aqui apareceu, nasceu ou cresceu? Era uma vez uma semente que dormia profundamente na sua cama de terra fofa. Vamos aprender a cuidar dela? Até as abelhas vão ajudar. Nesta actividade vamos fomentar o desejo de saber, proporcionar noções sobre o ciclo de vida das plantas, fomentando o respeito e responsabilidade de cuidar da natureza.</descricao>
         </actividade>
         <actividade>
             <nome>Histórias da Água</nome>
-            <imgURL>../imagens/actividades/historias_da_agua.jpg</imgURL>
+            <imgURL>historias_da_agua.jpg</imgURL>
             <descricao>As gotinhas de água têm uma história para contar… ou será cantar? E um peixinho vermelho está muito curioso para saber esta história e até fez uma canção. Com esta actividade vamos trabalhar as noções do ciclo da água, promovendo a coordenação motora e expressão dramática, estimulando o gosto pelo cantar.</descricao>
         </actividade>
     </publicoAlvo>
@@ -31,27 +31,27 @@
     <publicoAlvo tipo="1º CEB (6 a 10 anos)">
         <actividade>
             <nome>À roda dos alimentos com os Peixes</nome>
-            <imgURL>../imagens/actividades/a_rodas_alimentos_com_peixes.jpg</imgURL>
+            <imgURL>a_rodas_alimentos_com_peixes.jpg</imgURL>
             <descricao>Já conheces a roda dos alimentos? Qual é o teu alimento preferido? Sabes a que lugar da roda dos alimentos pertence? E os peixes será que gostam de ovos mexidos, salada de alface e pão com manteiga? Nesta actividade vamos estimular a curiosidade pela natureza dos seres vivos aquáticos, fomentar uma atitude atenta em relação ao consumo, incentivar o respeito pela saúde e normas de higiene alimentar.</descricao>
         </actividade>
         <actividade>
             <nome>Matemática nos Rios</nome>
-            <imgURL>../imagens/actividades/eduMatematicaRios.jpg</imgURL>
+            <imgURL>eduMatematicaRios.jpg</imgURL>
             <descricao>Quantas patas tem uma pata? É uma pergunta de palmo e meio. Contar, medir, estimar e descobrir a geometria na natureza. “Matemática” é só uma palavra que expressa muito do que fazemos no dia-a-dia. Vamos incentivar a sequenciação lógica, utilizar a linguagem simbólica, representação esquemática e comunicação não verbal.</descricao>
         </actividade>
         <actividade>
             <nome>Plantas e Bichos</nome>
-            <imgURL>../imagens/actividades/plantas_e_bichos2.jpg</imgURL>
+            <imgURL>plantas_e_bichos2.jpg</imgURL>
             <descricao>Que planta será esta? O que é um polinizador? Vamos aprender a cuidar dela? Até as abelhas dela vão cuidar com a ajuda dos peixes, sabias? Nesta actividade vamos proporcionar noções sobre o ciclos de vida e teias de vida, incentivando a observação de transformações que ocorrem nos seres vivos e reconhecendo como a acção humana sobre os vários recursos pode comprometer o ambiente.</descricao>
         </actividade>
         <actividade>
             <nome>Tanganhos Animados</nome>
-            <imgURL>../imagens/actividades/tanganhos_animados.jpg</imgURL>
+            <imgURL>tanganhos_animados.jpg</imgURL>
             <descricao>Tanganho?! O que é isso? É um galho seco. No que irás transformar o teu tanganho? Com esta actividade vamos incentivar a transformação de materiais através do seu manuseamento com alguma destreza, com auxílio do domínio de técnicas como a pintura e a colagem, utilizando materiais da natureza.</descricao>
         </actividade>
         <actividade>
             <nome>Sobre os Animais</nome>
-            <imgURL>../imagens/actividades/sobre_os_animais.jpg</imgURL>
+            <imgURL>sobre_os_animais.jpg</imgURL>
             <descricao>Qual é o teu animal preferido? A lontra, o sapo, o esturjão, a raia? De onde são? Há sapos e “sapas”? A lontra é um peixe? Vamos observar a multiplicidade de formas de alguns seres vivos, identificar as suas características e efectuar registos.</descricao>
         </actividade>
     </publicoAlvo>
@@ -59,27 +59,27 @@
     <publicoAlvo tipo="2º CEB (10 aos 12 anos)">
        <actividade>
             <nome>Aqua Mater</nome>
-            <imgURL>../imagens/actividades/aqua_mater.jpg</imgURL>
+            <imgURL>aqua_mater.jpg</imgURL>
             <descricao>A água é um importante componente dos seres vivos e possui propriedades únicas. Não se encontra equitativamente distribuída na natureza e a sua qualidade é fulcral para todos os seres vivos. Nesta actividade vamos sensibilizar para a importância da água, o papel que os rios e os seus seres vivos desempenham na sua qualidade, e como algumas acções humanas interferem com a qualidade da água.</descricao>
         </actividade>
         <actividade>
             <nome>Matemática nos Rios</nome>
-            <imgURL>../imagens/actividades/eduMatematicaRios.jpg</imgURL>
+            <imgURL>eduMatematicaRios.jpg</imgURL>
             <descricao>Quantos litros de água leva um aquário? A geometria, áreas, volumes e conversões estão sempre presentes nos aquários do Fluviário. Até a sua decoração obedece a regras e proporções. A matemática é uma ponte que nos permite atravessar um imenso rio. Vamos descobrir, praticar e até resolver alguns problemas com sólidos geométricos muito especiais.</descricao>
         </actividade>
         <actividade>
             <nome>Tanganhos Animados</nome>
-            <imgURL>../imagens/actividades/tanganhos_animados.jpg</imgURL>
+            <imgURL>tanganhos_animados.jpg</imgURL>
             <descricao>Um “Tanganho” é um galho seco. No que irás transformar o teu tanganho? Com esta actividade vamos incentivar a transformação de materiais através do seu manuseamento com alguma destreza, reconhecer a importância das galerias ripícolas e incentivar o conhecimento de algumas plantas.</descricao>
         </actividade>
         <actividade>
             <nome>Viagem do Saramugo</nome>
-            <imgURL>../imagens/actividades/viagem_saramugo.jpg</imgURL>
+            <imgURL>viagem_saramugo.jpg</imgURL>
             <descricao>A biodiversidade está em perigo, tal como o pequeno peixe a que chamamos Saramugo. Porque está tão ameaçado? O que se faz para o proteger e a tantos outros seres vivos? Esta é uma viagem pelo mundo dos animais ameaçados de extinção, para que seja uma viagem com regresso.</descricao>
         </actividade>
         <actividade>
             <nome>Sobre os Animais</nome>
-            <imgURL>../imagens/actividades/sobre_os_animais.jpg</imgURL>
+            <imgURL>sobre_os_animais.jpg</imgURL>
             <descricao>Os peixes têm dentes? Como se reproduzem? Fazem migrações? A variedade de formas, de revestimentos do corpo e de comportamentos dos animais é enorme. Nesta actividade vamos explorar as diferentes características dos organismos e os ambientes onde eles vivem.</descricao>
         </actividade>
     </publicoAlvo>
@@ -87,22 +87,22 @@
     <publicoAlvo tipo="3º CEB (12 aos 15 anos)">
         <actividade>
             <nome>A Água em Acção</nome>
-            <imgURL>../imagens/actividades/agua_em_accao.jpg</imgURL>
+            <imgURL>agua_em_accao.jpg</imgURL>
             <descricao>Todos conhecemos o ditado “Água mole em pedra dura, tanto bate até que fura”, mas como se a água é tão suave e as rochas tão sólidas? A água e o ar são grandes aliados dos seres vivos. Vamos explorar como estes três agentes – água, ar e seres vivos - ajudaram a modelar a paisagem, deslocando e depositando materiais ao longo de um curso de água, criando diferentes ambientes.</descricao>
         </actividade>
         <actividade>
             <nome>A Pegada Humana</nome>
-            <imgURL>../imagens/actividades/pegada_humana.jpg</imgURL>
+            <imgURL>pegada_humana.jpg</imgURL>
             <descricao>A sustentabilidade e o desenvolvimento sustentável são conceitos próximos que urgem que saibamos dar os passos certos. Quais as grandes áreas da pegada ecológica em que estamos a deixar a nossa pegada humana? Vamos trabalhar os níveis de organização da vida, noções do conceito de pegada ecológica e como poderemos contribuir para a sustentabilidade na Terra.</descricao>
         </actividade>
         <actividade>
             <nome>Artes no Rio</nome>
-            <imgURL>../imagens/actividades/eduNaturarte.jpg</imgURL>
+            <imgURL>eduNaturarte.jpg</imgURL>
             <descricao>Dos elementos que compõem a natureza até à nossa perspectiva, é um salto que une as duas margens de um rio onde flui a criatividade e a imaginação. Poderá ser necessário sermos “bilingues”, para que compreendamos a “linguagem” da natureza e a da cultura em que vivemos, e daí resulte um entendimento harmonioso.</descricao>
         </actividade>
         <actividade>
             <nome>Cascatas Vivas</nome>
-            <imgURL>../imagens/actividades/eduAguaLimpa.jpg</imgURL>
+            <imgURL>eduAguaLimpa.jpg</imgURL>
             <descricao>Os ecossistemas são como um rio, pois estão sempre em movimento. O seu dinamismo pode ser comparado com a relação entre os diversos seres vivos e também com o meio que os rodeia, com uma energia que flui sem precedentes. Estas relações são cascatas de pura energia viva. Vamos explorar as cadeias tróficas fluviais e como estas se relacionam com as terrestres e as marinhas.</descricao>
         </actividade>
     </publicoAlvo>
@@ -110,17 +110,17 @@
     <publicoAlvo tipo="Secundário (15 aos 18 anos)">
         <actividade>
             <nome>Arte no Rio</nome>
-            <imgURL>../imagens/actividades/eduNaturarte.jpg</imgURL>
+            <imgURL>eduNaturarte.jpg</imgURL>
             <descricao>Estamos sobre a ponte que une as duas margens de um rio onde flui a criatividade e a imaginação. Numa margem florescem os ecos próprios da natureza e da outra margem chegam-nos os sons da civilização. Um projecto harmonioso e funcional, resultará na combinação perfeita de multiplicidades. Quais serão?</descricao>
         </actividade>
         <actividade>
             <nome>Famílias de Peixes</nome>
-            <imgURL>../imagens/actividades/eduFamiliaPeixes.jpg</imgURL>
+            <imgURL>eduFamiliaPeixes.jpg</imgURL>
             <descricao>Os Peixes dão o mote à universalidade da taxonomia e nomenclatura, com a sua diversidade de características e longa história natural. Vamos trabalhar conceitos de taxonomia do grupo dos Peixes, procurar características que definam as Famílias respectivas e conhecer um pouco da sua história evolutiva.</descricao>
         </actividade>
         <actividade>
             <nome>Não à Poluição</nome>
-            <imgURL>../imagens/actividades/nao_a_poluicao.jpg</imgURL>
+            <imgURL>nao_a_poluicao.jpg</imgURL>
             <descricao>A poluição de origem antropogénica acarreta graves consequências para o ambiente e para a saúde. Sendo a água tão necessária a todos os seres vivos, a disrupção do equilíbrio dos ecossistemas aquáticos requer a nossa atenção. Vamos trabalhar a contaminação dos recursos aquáticos, eutrofização e que seres vivos estão associados a águas poluídas e não-poluídas, entre outras.</descricao>
         </actividade>
     </publicoAlvo>
@@ -128,47 +128,47 @@
     <publicoAlvo tipo="Todas as Idades">
         <actividade>
             <nome>Um Aquário à minha Medida</nome>
-            <imgURL>../imagens/eduAquarioMedida.jpg</imgURL>
+            <imgURL>eduAquarioMedida.jpg</imgURL>
             <descricao>De que cuidados precisa um aquário? Com algumas dicas e prática, poderás estar confiante para manter um aquário e seus habitantes em casa.</descricao>
         </actividade>
         <actividade>
             <nome>Corrida dos Peixes</nome>
-            <imgURL>../imagens/eduCorridaPeixes.jpg</imgURL>
+            <imgURL>eduCorridaPeixes.jpg</imgURL>
             <descricao>Porquê das migrações de animais aquáticos? Exemplos dos seus ciclos de vida.</descricao>
         </actividade>
         <actividade>
             <nome>Explorador do Fluviário</nome>
-            <imgURL>../imagens/eduExplorador.jpg</imgURL>
+            <imgURL>eduExplorador.jpg</imgURL>
             <descricao>Observação, capacidade de resposta e rapidez, são qualidades necessárias para superar as missões do Fluviário.</descricao>
         </actividade>
         <actividade>
             <nome>Global Ecológico</nome>
-            <imgURL>../imagens/eduGlobalEcologico.jpg</imgURL>
+            <imgURL>eduGlobalEcologico.jpg</imgURL>
             <descricao>O que é a ecologia? Quais são as suas problemáticas? O que podemos fazer?</descricao>
         </actividade>
         <actividade>
             <nome>Numa Gota de Água</nome>
-            <imgURL>../imagens/eduGotaAgua.jpg</imgURL>
+            <imgURL>eduGotaAgua.jpg</imgURL>
             <descricao>Conhecer mais sobre a vida microscópica de água doce.</descricao>
         </actividade>
         <actividade>
             <nome>Origami dos Rios</nome>
-            <imgURL>../imagens/eduOrigami.jpg</imgURL>
+            <imgURL>eduOrigami.jpg</imgURL>
             <descricao>Vem praticar técnicas de origami! Sabias que são utilizadas para potenciar 14 vezes mais baterias de lítio flexíveis?</descricao>
         </actividade>
         <actividade>
             <nome>Peixe-Tralha</nome>
-            <imgURL>../imagens/eduPeixeTralha.jpg</imgURL>
+            <imgURL>eduPeixeTralha.jpg</imgURL>
             <descricao>O "lixo" reconvertido pode ser reaproveitado de muitas formas, basta ter alguma imaginação.</descricao>
         </actividade>
         <actividade>
             <nome>Pinta, Risca e Pontilha</nome>
-            <imgURL>../imagens/eduPintaRisca.jpg</imgURL>
+            <imgURL>eduPintaRisca.jpg</imgURL>
             <descricao>Prolongar a vida útil de materiais de difícil degradação com diversão.</descricao>
         </actividade>
         <actividade>
             <nome>Teias de Vida</nome>
-            <imgURL>../imagens/eduTeiasVida.jpg</imgURL>
+            <imgURL>eduTeiasVida.jpg</imgURL>
             <descricao>Nas teias de vida movem-se muito mais do que aranhas, vem saber mais sobre o que as tece.</descricao>
         </actividade>
     </publicoAlvo>

@@ -33,6 +33,8 @@
             <a href="">Programa Pedagógico 2015/2016 [PDF]</a><br>
             <a href="">Sugestões de Actividades 2015/2016 [PDF]</a>
             </p>
+            
+            <div class="spacer-bottom"></div>
 
             <div class="header-bar"><p>Público-Alvo</p></div>
             <p>Todos os visitantes do Fluviário de Mora, entre os quais:</p>

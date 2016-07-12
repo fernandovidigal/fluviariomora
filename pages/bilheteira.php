@@ -60,6 +60,8 @@
         </tr>
     </table>
     
+    <div class="spacer-bottom"></div>
+    
     <div class="header-bar"><p>Visita Guiada</p></div>
     
     <table class="tabelaPrecos lessPadding" border="0" cellspacing="2">
