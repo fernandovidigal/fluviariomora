@@ -24,6 +24,7 @@
         $numeroNoticias = count($noticiasXML);
         $pagina = 0;
         $numeroNoticiasPorPagina = 6;
+        $itemsNaPagina = 0;
         
         // Determina qual a página
         if(isset($_GET['p']) && is_numeric($_GET['p']))
@@ -38,10 +39,12 @@
             
             if(($numeroNoticias-($numeroNoticiasPorPagina * $pagina)) < $numeroNoticiasPorPagina)
             {
-                $numeroNoticiasPorPagina = $numeroNoticias-($numeroNoticiasPorPagina * $pagina);
+                $itemsNaPagina = $numeroNoticias-($numeroNoticiasPorPagina * $pagina);
+            } else {
+                $itemsNaPagina = $numeroNoticiasPorPagina;
             }
             
-            for($i = 0; $i < $numeroNoticiasPorPagina; $i++)
+            for($i = 0; $i < $itemsNaPagina; $i++)
             {
                 $indice = ($pagina * $numeroNoticiasPorPagina) + $i;
                 $noticia = $noticiasXML->noticia[$indice];
@@ -86,7 +89,8 @@
             $numeroPaginas = ceil($numeroNoticias/$numeroNoticiasPorPagina);
             echo '<div id="numeros-pagina">';
             for($i = 0; $i < $numeroPaginas; $i++)
-                echo "<a href='noticias.php?p=".$i."'>".($i+1)."</a>";
+                echo "<a href='noticias.php?p=".$i."'
+                ".($pagina == $i ? 'class="selected"' : '').">".($i+1)."</a>";
             echo '</div>';
         }  
     ?>

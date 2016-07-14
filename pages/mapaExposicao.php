@@ -30,7 +30,7 @@
                     <text id="Restaurante_Text" transform="matrix(1 0 0 1 710.2715 740.5801)" font-family="'lato'" font-size="1.1em">Restaurante</text>
                 </a>
 
-                <a xlink:href="<?php echo pages_path; ?>/monstros_rio.php">
+                <a xlink:href="<?php echo pages_path; ?>/monstrosRio.php">
                     <polygon id="MonstrosdoRio" fill="#e2e2e2" points="694,424 791,424 791,545 822,545 822,588 694,588 	"/>
                     <text id="MonstrosdoRio_Text" transform="matrix(1 0 0 1 704.9658 502.5)"><tspan x="0" y="0" font-family="'lato'" font-size="1.1em">Monstros</tspan><tspan x="13.433" y="22.8" font-family="'lato'" font-size="1.1em">do Rio</tspan></text>
                 </a>
@@ -40,22 +40,22 @@
                     <text id="PercursodeUmRio_Text" transform="matrix(1 0 0 1 290 512.5876)" font-family="'lato'" font-size="1.1em">Percurso de um Rio</text>
                 </a>
 
-                <a xlink:href="<?php echo pages_path; ?>/sala_saramugo.php">
+                <a xlink:href="<?php echo pages_path; ?>/salaSaramugo.php">
                     <rect id="SalaSaramugo" x="41" y="587" fill="#e2e2e2" width="100" height="133"/>
                     <text id="SalaSaramugo_Text" transform="matrix(1 0 0 1 73.6143 640.082)"><tspan x="0" y="0" font-family="'lato'" font-size="1.1em">Sala</tspan><tspan x="-22.351" y="21.6" font-family="'lato'" font-size="1.1em">Saramugo</tspan></text>
                 </a>
 
-                <a xlink:href="<?php echo pages_path; ?>/habitats_exoticos.php">
+                <a xlink:href="<?php echo pages_path; ?>/habitatsExoticos.php">
                     <rect id="HabitatsExoticos" x="280" y="589.978" fill="#e2e2e2" width="277" height="65"/>
                     <text id="HabitatsExoticos_Text" transform="matrix(1 0 0 1 350.7695 626.522)" x="0" y="0" font-family="'lato'" font-size="1.1em">Habitats Exóticos</text>
                 </a>
 
-                <a xlink:href="<?php echo pages_path; ?>/exposicao_multimedia.php">
+                <a xlink:href="<?php echo pages_path; ?>/exposicaoMultimedia.php">
                     <rect id="ExposicaoMultimedia" x="317" y="655" fill="#e2e2e2" width="201" height="66"/>
                     <text id="ExposicaoMultimedia_Text" transform="matrix(1 0 0 1 332.5586 693.5801)" x="0" y="0" font-family="'lato'" font-size="1.1em">Exposição Multimédia</text>
                 </a>
-
-                <a xlink:href="<?php echo pages_path; ?>/sala_aula.php">
+s
+                <a xlink:href="#">
                     <rect id="Laboratorio" x="154" y="732" fill="#e2e2e2" width="83" height="153"/>
                     <text id="Laboratorio_Text" transform="matrix(1 0 0 1 175.4086 787.0743)"><tspan x="2px" y="0" font-family="'lato'" font-size="1.1em">Sala</tspan><tspan x="9.734" y="26.4" font-family="'lato'" font-size="1.1em">de</tspan><tspan x="0.297" y="52.8" font-family="'lato'" font-size="1.1em">Aula</tspan></text>
                 </a>

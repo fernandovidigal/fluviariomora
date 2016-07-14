@@ -7,7 +7,7 @@
     </div>
 
     <div id="newsletter">
-        <form action="">
+        <form action="<?php echo scripts_path; ?>/subscrever.php" method="post">
             <label for="newsletter">Subscreva a nossa Newsletter</label>
             <input type="text" name="newsletter">
             <input type="submit" name="submit" value="Subscrever">

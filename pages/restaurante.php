@@ -21,7 +21,7 @@
 
     <p>Aconselhamos que confirme a sua reserva prévia, de preferência com antecedência da data desejada. Para mais informações sobre o café, reservas prévias para pequenos-almoços ou lanches contacte o (+351) 266 448 130.</p>
     
-    <div class="spacer-bottom-60"></div>
+    <div class="spacer-bottom-60">&nbsp;</div>
 
     <div class="header-bar"><p>Restaurante</p></div>
     
@@ -31,7 +31,7 @@
 
     <p>Aconselhamos que confirme a sua reserva prévia, de preferência com antecedência da data desejada. Para mais informações sobre o restaurante, reservas prévias para almoços e beberetes contacte o (+351) 266 448 130.</p>
     
-    <div class="spacer-bottom-60"></div>
+    <div class="spacer-bottom-60">&nbsp;</div>
 
 </div>
 

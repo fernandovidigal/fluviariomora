@@ -9,7 +9,7 @@
     <meta name="author" content="Fernando Vidigal">
     
     <!-- FONTS -->
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
     
     <!-- ESTILOS -->
     <link rel="stylesheet" href="<?php echo estilos_path; ?>/master.css">
@@ -22,7 +22,8 @@
     </div>
     
     <div>
-        <a href="#" id="menu-toogle">☰</a>
+        <!--<a href="#" id="menu-toogle">☰</a>-->
+        <img src="<?php echo img_path; ?>/menu-button.png" alt="" id="menu-toogle">
 
         <nav id="top-menu">
             <div id="close-drop-menu">☰&nbsp;&nbsp;&nbsp;Fechar Menu</div>
@@ -40,7 +41,7 @@
                 <li class="dropSubMenu">
                     <p>Exposição<span class="right-drop-arrow"></span></p>
                     <ul class="drop-menu">
-                        <li><a href="<?php echo pages_path; ?>/exposicao.php">Mapa da Exposição</a></li>
+                        <li><a href="<?php echo pages_path; ?>/mapaExposicao.php">Mapa da Exposição</a></li>
                         <li><a href="<?php echo pages_path; ?>/percursoRio.php">Percurso de um Rio</a></li>
                         <li><a href="<?php echo pages_path; ?>/monstrosRio.php">Monstros do Rio</a></li>
                         <li><a href="<?php echo pages_path; ?>/lontrario.php">Lontrário</a></li>

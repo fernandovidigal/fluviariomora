@@ -22,7 +22,7 @@
 
     <p>Para mais informações sobre os produtos da loja e bilheteira contacte o (+351) 266 448 130.</p>
     
-    <div class="spacer-bottom-60"></div>
+    <div class="spacer-bottom-60">&bnsp;</div>
     
 </div>
 
